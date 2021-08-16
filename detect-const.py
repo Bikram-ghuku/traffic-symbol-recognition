@@ -69,4 +69,5 @@ def get_data(frame):
     #print(result)
     return result
     
-print(get_data(Image.open('./data/Test/00093.png')))
+num = input("Enter the image's number to detect the symbol class: ")
+print(get_data(Image.open(f'./data/Test/000{num}.png')))

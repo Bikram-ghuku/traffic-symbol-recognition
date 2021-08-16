@@ -5,7 +5,11 @@ import os
 import time
 
 video = cv2.VideoCapture(0)
-os.mkdir('./cur-img')
+try:
+    os.mkdir('./cur-img')
+    print("Made cur image folder")
+except FileExistsError:
+    print("Folder already exists, skipped")
 while True:
     ret, frame = video.read()
     frame = cv2.resize(frame, (32,32))
