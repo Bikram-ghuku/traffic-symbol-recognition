@@ -5,7 +5,7 @@ import os
 import time
 
 video = cv2.VideoCapture(0)
-
+os.mkdir('./cur-img')
 while True:
     ret, frame = video.read()
     frame = cv2.resize(frame, (32,32))
