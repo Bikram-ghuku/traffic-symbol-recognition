@@ -1,6 +1,6 @@
-# traffic-symbol-recognition
+# Traffic-symbol-recognition
 OpenSource Traffic symbol recognition using tensorflow and kaggle german symbol dataset
-
+![image](https://raw.githubusercontent.com/Bikram-ghuku/traffic-symbol-recognition/main/image.png)
 
 #### Uses Tensorflow to make an train the model, model saved in model file.
 
