@@ -8,8 +8,12 @@ OpenSource Traffic symbol recognition using tensorflow and kaggle german symbol 
 
 #### Model is a categorical predictor model.
 
-#### Use your pc's camera to detect traffic symbol run
+To start using the project you must install the required dependencies:
+```Install dependencies
+pip install -r requirements.txt
+```
 
+Use your pc's camera to detect traffic symbol run:
 ```Start camera recogniton
 python main.py
 ```
