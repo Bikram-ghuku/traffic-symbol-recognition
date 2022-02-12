@@ -27,6 +27,7 @@ Use your pc's camera to detect traffic symbol run:
 ```Start camera recogniton
 python main.py
 ```
+
 Detect Symbol of the image from the given 100 test images:
 ```Detect symbol form image from the given 100 test images
 python detect-const.py
