@@ -10,6 +10,14 @@ OpenSource Traffic symbol recognition using tensorflow and kaggle german symbol 
 
 #### Model is a categorical predictor model.
 
+###Clone the Repo
+
+Cloning the repo
+```Copy the repo
+git clone https://github.com/Bikram-ghuku/traffic-symbol-recognition.git && cd traffic-symbol-recognition
+```
+
+
 To start using the project you must install the required dependencies:
 ```Install dependencies
 pip install -r requirements.txt
